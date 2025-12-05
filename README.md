@@ -1,11 +1,9 @@
 # REACT-DND-DICE-COMPONENTS
 
-Dungeons and Dragons Dice Components
-
+**Dungeons and Dragons Dice Components**
 This repository contains a set of interactive, animated dice components designed for a Dungeons and Dragons (D&D) themed web application. The dice are built using React and Three.js, and are fully customizable for different types of dice (D4, D6, D8, D10, D12, and D20). The dice components include features like rolling, bouncing, and showing the final result face to the camera.
 
-Features:
-
+**Features:**
 Realistic Dice Animations: Each die rolls, bounces, and settles on the correct face.
 
 Multiple Dice Types: D4, D6, D8, D10, D12, and D20 with customizable textures and animations.
@@ -18,16 +16,14 @@ Smooth Rotation and Centering: Dice return to the center of the screen with the 
 
 Dice Roll Animation: Rolling animation simulates randomness and natural dice behavior.
 
-Installation
-
+**Installation**
 To use these dice components in your project, follow the steps below:
 
-1. Clone this Repository
-git clone https://github.com/your-username/dnd-dice-components.git
+**1. Clone this Repository**
+git clone https://github.com/Kam-ino/REACT-DND-DICE-COMPONENTS
 cd dnd-dice-components
 
-2. Install Dependencies
-
+**2. Install Dependencies**
 Ensure you have Node.js and npm (or yarn) installed. Then run the following command to install the required dependencies:
 
 npm install
@@ -37,8 +33,7 @@ or
 
 yarn install
 
-3. Start the Development Server
-
+**3. Start the Development Server**
 After installation, you can run the development server to preview the dice components:
 
 npm start
@@ -46,7 +41,7 @@ npm start
 
 This will run the app at http://localhost:3000 and display your dice components in action.
 
-Usage
+**Usage**
 
 You can use the dice components in your project by importing them like this:
 
@@ -74,7 +69,7 @@ function DiceRoller() {
   );
 }
 
-Dice Types:
+**Dice Types:**
 
 D4: Four-sided die, typically a pyramid shape.
 
@@ -90,7 +85,7 @@ D20: Twenty-sided die, shaped like an icosahedron.
 
 Each dice component uses Three.js for 3D rendering and React hooks for interactivity.
 
-Customization
+**Customization**
 
 You can easily customize the dice in the following ways:
 
@@ -100,16 +95,11 @@ Update Dice Faces: Modify the number of faces by changing the geometry and mater
 
 Dice Roll Animation: Adjust the speed of the roll and the bounce intensity by modifying the constants in each dice component (e.g., ROLL_DURATION_MS, BOUNCE_DAMPING).
 
-Contributing
+**Contributing**
 
 Contributions are welcome! If you’d like to add new features, fix bugs, or improve existing functionality, please feel free to fork the repo and submit a pull request.
 
-License
-
-This project is licensed under the MIT License - see the LICENSE
- file for details.
-
-Acknowledgements
+**Acknowledgements**
 
 Three.js: A 3D graphics library used for rendering the dice.
 
