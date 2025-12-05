@@ -328,16 +328,7 @@ export default function D10({ onRollComplete }) {
 
           <OrbitControls enableZoom={false} enablePan={false} enableRotate={false} />
         </Canvas>
-      </div>
-
-      <div style={{ textAlign: "center", marginTop: 10 }}>
-        <button onClick={rollDice} disabled={rolling}>
-          Roll D10
-        </button>
-        <div style={{ marginTop: 8 }}>
-          Result: <strong>{result}</strong>
-        </div>
-      </div>
     </div>
   );
 }
+
